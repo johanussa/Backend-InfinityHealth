@@ -1,0 +1,34 @@
+{
+  "name": "backend-infinity",
+  "version": "1.0.0",
+  "description": "Backend Infinity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js --exec babel-node",
+    "dev": "nodemon index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanussa/Backend-InfinityHealth.git"
+  },
+  "author": "Johan Sebastian Ussa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johanussa/Backend-InfinityHealth/issues"
+  },
+  "homepage": "https://github.com/johanussa/Backend-InfinityHealth#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.8.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "graphql": "^16.5.0",
+    "graphql-tools": "^8.2.12",
+    "mongoose": "^6.3.6",
+    "nodemon": "^2.0.16"
+  }
+}
